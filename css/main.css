@@ -12,7 +12,7 @@ a {
     display: inline;
     color: black;
 }
-
+/*Estilos del header*/
 header {
     width: 100%;
     height: 140px;
@@ -34,4 +34,10 @@ header .header-icons-container .icons{
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
+}
+/*El archivo de flaticon.css maneja una dependencia de la pagina de flaticon
+que nos permite generar iconos unicamente agregando al archivo html las clases
+que menciona el archivo flaticon.css*/
+header .icons span{
+    color: white;
 }
