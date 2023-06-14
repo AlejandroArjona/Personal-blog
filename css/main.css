@@ -1,7 +1,10 @@
 html{
-    font-family: "Flaticon";
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
 }
 body{
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -79,10 +82,12 @@ nav .profile-link a{
     background-position: center;
 }
 .main-container p{
+    font-family: 'Roboto mono', monospace;
     font-size: 5rem;
     font-weight: bold;
     color: white;
-    line-height: 75px;
+    line-height: 85px;
+    letter-spacing: 10px;
 }
 .main-container button{
     cursor: pointer;
@@ -96,5 +101,5 @@ nav .profile-link a{
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
-    color: var(--black);
+    color: black;
 }
