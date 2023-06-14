@@ -1,3 +1,6 @@
+html{
+    font-family: "Flaticon";
+}
 body{
     margin: 0;
     padding: 0;
@@ -40,4 +43,58 @@ que nos permite generar iconos unicamente agregando al archivo html las clases
 que menciona el archivo flaticon.css*/
 header .icons span{
     color: white;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+nav .nav-logo-container img{
+    width: 220px;
+    margin-top: 10px;
+}
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a{
+    color: black;
+    border-bottom: 1px solid black;
+}
+/* Estilos del main */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 140px);
+    background-image: url("../assets/img/Cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-container p{
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    line-height: 75px;
+}
+.main-container button{
+    cursor: pointer;
+    padding: 0;
+    width: 125px;
+    height: 50px;
+    background-color: #47cfac;
+    box-shadow: 0px 4px 8px rgba(89, 73,30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
 }
